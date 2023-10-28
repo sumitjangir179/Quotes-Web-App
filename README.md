@@ -4,3 +4,4 @@
 
 3 Run the project (npm run dev)
 
+View: https://sumitjangir179-quote.netlify.app/
