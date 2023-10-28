@@ -13,7 +13,7 @@ const App = () => {
   const option = { headers }
 
   const getQuote = () => {
-    axios.get(`/quotes?category=${defaultValue}`, option)
+    axios.get(`https://api.api-ninjas.com/v1/quotes?category=${defaultValue}`, option)
       .then((res) => { setQuote(res.data[0].quote) })
       .catch(() => { setError(true) })
       .finally(() => { setLoading(false) })
